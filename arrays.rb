@@ -25,3 +25,10 @@ ate_snacks.unshift(false,false)
 #In other words, Index Position = (Element<#> - 1)
 print snacks(0)
 print snacks(4)
+
+#This method returns a new array by rotating the array so that the element specified (#) is at the front.
+#Imagine telling people at the front of the line to move to the back.
+workouts = ["jumping jacks","squats","pushups","crunches"]
+print workouts
+print workouts.rotate
+print workouts.rotate(2)
