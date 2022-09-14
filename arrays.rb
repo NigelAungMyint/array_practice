@@ -19,3 +19,9 @@ snack_prices.shift(2)
 
 #this method will return array with (objects) added to the beginning of the array
 ate_snacks.unshift(false,false)
+
+#At this point there should be 5 elements in `snacks` the first element `"chips"` has an index position of 0
+#and the last element `"apples"` should have an index position of 4.
+#In other words, Index Position = (Element<#> - 1)
+print snacks(0)
+print snacks(4)
